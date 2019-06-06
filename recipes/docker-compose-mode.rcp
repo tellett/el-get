@@ -1,0 +1,6 @@
+(:name docker-compose-mode
+       :type github
+       :pkgname "meqif/docker-compose-mode"
+       :minimum-emacs-version "24.3"
+       :description "Major mode for editing docker-compose files."
+       :depends (cl-lib dash f json))
