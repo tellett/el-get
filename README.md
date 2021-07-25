@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/dimitri/el-get.svg?branch=master)](https://travis-ci.org/dimitri/el-get)
+[![Build Status](https://github.com/dimitri/el-get/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/dimitri/el-get/actions)
 
 ![Color El-Get logo](https://raw.github.com/dimitri/el-get/master/logo/el-get.png)
 El-Get allows you to install and manage `elisp` code for Emacs. It supports
@@ -58,7 +58,7 @@ packages providing some.
 # Installation
 
 El-Get is easy to install.  The only requirements to do so successfully are
-Emacs (23.4 and above), `git` and a connection to the internet that allows you to `git clone`
+Emacs (24.3 and above), `git` and a connection to the internet that allows you to `git clone`
 repositories.
 
 If you do not already have `git` on your system, you can install it through
