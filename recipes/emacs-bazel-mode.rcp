@@ -1,0 +1,7 @@
+(:name emacs-bazel-mode
+       :website "https://github.com/bazelbuild/emacs-bazel-mode.git"
+       :description "Bazel support for GNU Emacs"
+       :type github
+       :pkgname "bazelbuild/emacs-bazel-mode"
+       :compile "bazel.el"
+       :submodule nil)
