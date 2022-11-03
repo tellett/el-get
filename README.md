@@ -55,6 +55,9 @@ Technical differences also include the ability for El-Get to run OS commands
 found in the wild, allowing for automatic inclusion of *Info* pages for
 packages providing some.
 
+You can use `el-get-elpa-build-local-recipes` to install extensions provided by
+ELPA.
+
 # Installation
 
 El-Get is easy to install.  The only requirements to do so successfully are
@@ -315,13 +318,13 @@ tries to initialize the package.
 
 ;; End of recipes, call `el-get' to make sure all packages (including
 ;; dependencies) are setup.
-(el-get- 'sync)
+(el-get 'sync)
 ```
 
 If a package with a local recipe definition has a recipe file, the
 definition overrides that in the recipe file.
 
-There are some syntactic sugars to specify a package name and a recipe source
+There is some syntactic sugar to specify a package name and a recipe source
 together.
 
 ```lisp
