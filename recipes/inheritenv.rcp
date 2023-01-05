@@ -1,0 +1,6 @@
+(:name inheritenv
+       :description "Make Emacs temp buffers inherit buffer-local environment variables"
+       :website "https://github.com/purcell/inheritenv"
+       :type elpa
+       :repo ("melpa" . "http://melpa.org/packages/")
+       :depends (cl-lib))

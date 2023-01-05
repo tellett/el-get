@@ -1,0 +1,6 @@
+(:name envrc
+       :description "envrc.el - buffer-local direnv integration for Emacs"
+       :website "https://github.com/purcell/envrc"
+       :type elpa
+       :repo ("melpa" . "http://melpa.org/packages/")
+       :depends (ansi-color cl-lib ineritenv json))
