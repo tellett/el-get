@@ -2,4 +2,4 @@
        :description "An emacs package to manage various python executables"
        :type github
        :pkgname "wyuenho/emacs-pet"
-       :depends (cl-lib f let-alist seq subr-x))
+       :depends (cl-lib f let-alist seq))
