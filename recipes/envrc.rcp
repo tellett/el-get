@@ -3,4 +3,4 @@
        :website "https://github.com/purcell/envrc"
        :type elpa
        :repo ("melpa" . "http://melpa.org/packages/")
-       :depends (ansi-color cl-lib ineritenv json))
+       :depends (ansi-color cl-lib inheritenv json))
