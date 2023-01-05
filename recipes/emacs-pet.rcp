@@ -1,0 +1,5 @@
+(:name emacs-pet
+       :description "An emacs package to manage various python executables"
+       :type github
+       :pkgname "wyuenho/emacs-pet"
+       :depends (exec-path-from-shell))
