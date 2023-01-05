@@ -1,0 +1,5 @@
+(:name python-isort
+       :description "An emacs package to reformat python code using isort"
+       :type github
+       :pkgname "wyuenho/emacs-python-isort"
+       :depends (reformatter))
