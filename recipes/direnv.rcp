@@ -2,4 +2,5 @@
        :description "direnv (https://direnv.net/) integration for Emacs."
        :website "https://github.com/wbolster/emacs-direnv"
        :type elpa
-       :repo ("melpa" . "http://melpa.org/packages/"))
+       :repo ("melpa" . "http://melpa.org/packages/")
+       :depends (dash exec-path-from-shell))
